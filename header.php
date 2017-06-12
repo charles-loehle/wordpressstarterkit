@@ -16,34 +16,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+<!-- Bootstrap core CSS -->
+<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/sass/bootstrap.min.css" rel="stylesheet">
+
+<!-- FontAwesome Icons -->
+<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/sass/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
 <?php wp_head(); ?>
+
+<!--HTML5 shiv and Respspond.js IE8 support of HTML5 elements and media queries -->
+<!--[if It IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js:"></script>
+<![endif]-->
+
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wordpressstarterkit' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
+	<!-- HEADER
+======================================== -->
+<header class="site-header" role="banner">
 
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
+	<!-- NAVBAR
+	========================================= -->
+	<div class="navbar-wrapper">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wordpressstarterkit' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+					<a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?> /assets/images/originals/cldigitaldesign3.png" alt="cldigitaldesign logo"></a>
+				</div><!-- navbar header -->
 
-	<div id="content" class="site-content">
+				<?php
+					wp_nav_menu( array(
+						'theme_location'  => 'menu-1',
+						'container'				=> 'nav',
+						'container_class'	=> 'navbar-collapse collapse',
+						'menu_class'			=> 'nav navbar-nav navbar-right'
+					));
+				?>
+
+
+			</div><!-- container -->
+		</div><!-- navbar -->
+	</div><!-- navbar-wrapper -->
+</header>

@@ -16,7 +16,7 @@ var gulp = require('gulp'),
 
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "localhost:8888/<sitename goes here>/"
+        proxy: "localhost/wordpress-starter-kit/"
     });
 });
 
