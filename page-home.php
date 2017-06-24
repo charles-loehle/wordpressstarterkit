@@ -49,9 +49,9 @@ $optin_button_text = get_field('optin_button_text');
 
 </section><!-- hero -->
 
-<!-- PROJECT FEATURES
+<!-- MY EXPERTISE
 ========================================== -->
-<section id="project-features">
+<section id="my-expertise">
   <div class="container">
 
     <h2 class="title">My Expertise</h2>
@@ -76,7 +76,7 @@ $optin_button_text = get_field('optin_button_text');
       </div>
     </div><!-- /.row -->
   </div><!-- /.container -->
-</section><!-- /.project-features -->
+</section><!-- /#my-expertise -->
 
 <!-- MY WORK
 ========================================= -->

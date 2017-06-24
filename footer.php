@@ -56,28 +56,27 @@
 
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i>Subscribe to our mailing list</h4>
+        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Contact Me</h4>
       </div><!-- /.modal-header -->
 
       <div class="modal-body">
-        <p>Enter your name and email!</p>
-
+        <p>Enter your name and email</p>
           <form class="form-inline" role="form">
             <div class="form-group">
-              <label class="sr-only" for="subscribe-name">Your first name</label>
-              <input type="text" class="form-control" id="subscribe-name" placeholder="Your first name">
+              <label class="sr-only" for="subscribe-name">Name</label>
+              <input type="text" class="form-control" id="subscribe-name" placeholder="Name*">
             </div><!-- /.form-group -->
             <div class="form-group">
-              <label class="sr-only" for="subscribe-email">and your email</label>
-              <input type="text" class="form-control" id="subscribe-email" placeholder="and your email">
+              <label class="sr-only" for="subscribe-email">Email</label>
+              <input type="text" class="form-control" id="subscribe-email" placeholder="Email*">
             </div><!-- /.form-group -->
-
-            <input type="submit" class="btn btn-danger" value="Subscribe!">
-        </form>
-
+            <div class="form-group">
+              <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+            </div><!-- /.form-group -->
+          </form>
+        <input type="submit" class="btn btn-success" value="Get Started">
         <hr>
-
-        <p>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. <br> No Spam. Just goood stuff. We respect your privacy &amp; you may unsubscribe at any time</p>
+        <p>By providing your email you consent to receiving occasional promotional emails &amp; newsletters.
       </div><!-- /.modal-BODY -->
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->

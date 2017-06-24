@@ -392,7 +392,6 @@ body {
 		top: 32px;
 }
 
-/* == GLOBAL ==*/
 h2 {
 	color: $title;
 	text-align: center;
@@ -400,60 +399,35 @@ h2 {
 	font-weight: bold;
 }
 
-/* ===================================================
+/* ===  LAYOUT ===*/
 
-h1,h2,h3,h4,h5,h6 {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+.row + .row {
+  margin-top: 20px;
 }
 
-h1 {
-  font-size: 3em;
-  color: white;
+section {
+  padding: 80px 0;
+}
+
+section.main-content {
+  padding-top: 40px 0;
+}
+
+.section-header {
+  text-align: center;
+}
+
+section h3 {
+  margin: 30px 0 30px;
 	font-weight: 700;
-	letter-spacing: -.1rem;
+	font-size: 3rem;
 }
 
-h1,h2 {
-  margin: 0 0 10px;
+#primary {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-h3 {
-  margin: 20px 0;
-}
-
-h4 {
-  font-size: 3rem;
-	font-weight: 700;
-}
-
-p {
-  margin: 0 0 15px;
-}
-
-p.lead {
-  font-weight: normal;
-}
-
-a:link, a:visited {
-  color: $paragraph;
-}
-
-a:hover {
-  text-decoration: none;
-  color: white;
-}
-
-button, input, .btn, a.btn {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  color: white;
-}
-
-.btn {
-  font-weight: bold;
-}
-========================================================= */
 button.btn:focus {
   outline: none !important;
 }
@@ -479,10 +453,6 @@ button.btn:focus {
 
 img {
   max-width: 100%;
-}
-
-.modal-content {
-  background: url('assets/images/originals/tile.jpg') top left repeat;
 }
 
 .badge.social {
@@ -564,6 +534,9 @@ blockquote:before {
 		font-weight: 900;
 }
 
+section#hero {
+	background-size: cover;
+}
 
 #hero {
   /*background: url('assets/images/originals/hero-bg.jpg') 50% 0 repeat fixed;*/
@@ -588,12 +561,56 @@ blockquote:before {
   margin-top: 30px;
 }
 
-/* === MY EXPERTISE == */
+/* === MODAL === */
+.modal-content {
+  background-color: $title;
+	.btn-success {
+		margin: auto;
+		width: 175px;
+		color: white;
+		transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+		border-radius: 50px;
+		border: 2px solid $yellow-bkd;
+		background-color: $title;
+	 }
+	.btn-success:hover {
+		 width:200px;
+		 color: $title;
+		 background-color: $yellow-bkd;
+		 border: 2px solid $yellow-bkd;
+ }
+}
 
-/*
-#project-features h1 {
-	font-size: 3rem;
-} */
+#optin {
+  padding: 20px 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.2em;
+	p {
+		margin: 7px 0 0 0;
+ }
+ /* New button styles */
+  .btn-success {
+	 	margin: auto;
+	 	width: 175px;
+	 	color: white;
+	 	transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+	 	border-radius: 50px;
+	 	border: 2px solid $yellow-bkd;
+	 	background-color: transparent;
+	 }
+  .btn-success:hover {
+	   width:200px;
+	   color: $title;
+	   background-color: $yellow-bkd;
+	   border: 2px solid $yellow-bkd;
+ }
+}
+
+/* === MY EXPERTISE == */
+#my-expertise {
+  text-align: center;
+}
 
 .title {
 	color: $title;
@@ -619,7 +636,6 @@ i.fa {
 /* === MY WORK === */
 #my-work {
 	background-color: #eee;
-
 	ul {
 		font-size: 1.1rem;
 		font-weight: 700;
@@ -636,7 +652,6 @@ i.fa {
 			font-size: 1.8rem;
 		}
 	}
-
 	p {
 		margin-bottom: 30px;
 	}
@@ -651,7 +666,6 @@ i.fa {
 		border: 2px solid $yellow-bkd;
 		background-color: transparent;
 	}
-
 	.btn-success:hover {
 	  width:200px;
 	  color: $yellow-bkd;
@@ -660,96 +674,44 @@ i.fa {
 	}
 }
 
-/* ===  LAYOUT ===*/
-
-.row + .row {
-  margin-top: 20px;
-}
-
-section {
-  padding: 80px 0;
-}
-
-section.main-content {
-  padding-top: 40px 0;
-}
-
-.section-header {
-  text-align: center;
-}
-
-section h3 {
-  margin: 30px 0 30px;
-	font-weight: 700;
-	font-size: 3rem;
-}
-
-#primary {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#optin {
-  padding: 20px 0;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-size: 1.2em;
-}
-
-#optin p {
-  margin: 7px 0 0 0;
-}
-
-
-/* New button styles */
-#optin .btn-success {
-	margin: auto;
-	width: 175px;
-	color: white;
-	transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
-	border-radius: 50px;
-	border: 2px solid $yellow-bkd;
-	background-color: transparent;
-}
-
-#optin .btn-success:hover {
-  width:200px;
-  color: $title;
-  background-color: $yellow-bkd;
-  border: 2px solid $yellow-bkd;
-}
-/* End new button styles */
-
-#project-features {
-  text-align: center;
-}
-
-
+/* === SIGN UP SECTION === */
 #signup {
   text-align: center;
   background-size: cover;
   color: $title;
   padding: 80px 0;
-
-	/* New styling: */
 	background-color: $yellow-bkd;
-}
-
-#signup h2 {
-  font-weight: bold;
-}
-
-#signup .btn {
-  font-size: 1.3rem;
-	font-weight: 700;
-	padding: 15px;
-	width: 214px;
-}
-
-#signup h3 {
-	font-size: 2rem;
-	line-height: 3rem;
-	margin-bottom: 40px;
+	h2 {
+		font-weight: bold;
+ }
+ .btn-success {
+	 	border: none;
+	 	/* styles for stretch effect: */
+	 	margin: auto;
+	 	width: 175px;
+	 	transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+	 	border-radius: 50px;
+	 	border: 2px solid $title;
+	 	background-color: transparent;
+	 	color: $title;
+  }
+	.btn-success:hover {
+		/* styles for stretch effect: */
+		width:200px;
+		color: $yellow-bkd;
+		border: 2px solid $title;
+		background-color: $title;
+	}
+	.btn {
+	  font-size: 1.3rem;
+		font-weight: 700;
+		padding: 15px;
+	}
+	h3 {
+		font-size: 2rem;
+		line-height: 3rem;
+		margin-bottom: 40px;
+	}
 }
 
 footer {
