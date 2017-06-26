@@ -55,6 +55,7 @@ $optin_button_text = get_field('optin_button_text');
   <div class="container">
 
     <h2 class="title">My Expertise</h2>
+
     <p class="subtitle">I've got chops in all phases of the design process.</p>
     <div class="row">
       <div class="col-sm-4 expertise-block">
@@ -84,20 +85,36 @@ $optin_button_text = get_field('optin_button_text');
   <div class="container">
     <div class="row">
       <h2>My Work</h2>
-      <div class="col-sm-6">
-        <h3 class="title">Greg Erbs CPA</h3>
-        <ul>
-          <li>WORDPRESS THEME CUSTOMIZATION</li>
-        </ul>
-        <p>Greg Erbs is a CPA based in Atlanta, Ga. who
-          provides accounting solutions of all types.</p>
-        <a class="btn btn-success btn-lg btn-block pull-left" href="gregerbscpa.cldigitaldesign.com">VISIT WEBSITE</a>
-      </div><!-- /.col -->
+        <div class="work-text col-sm-6">
+          <h3 class="title">Greg Erbs CPA</h3>
+          <ul>
+            <li>WORDPRESS THEME CUSTOMIZATION</li>
+          </ul>
+          <p>Greg Erbs is a CPA based in Atlanta, Ga. who
+            provides accounting solutions of all types.</p>
+          <a class="btn btn-success btn-lg btn-block pull-left" href="gregerbscpa.cldigitaldesign.com">VISIT WEBSITE</a>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <div class="work-pic thumbnail">
+            <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/gregerbscpa-desktop-cropped.png">
+          </div>
+        </div><!-- /.col -->
+        <hr>
 
-      <div class="col-sm-6">
-        <img src="/" alt="">
-      </div><!-- /.col -->
-
+        <div class="work-text col-sm-6">
+          <h3 class="title">Clear View Escapes</h3>
+          <ul>
+            <li>JAVASCRIPT, JQUERY, RESPONSIVE DESIGN</li>
+          </ul>
+          <p>Clear View Escapes is a mock travel agency site designed to display coding abilities in
+          several different realms.</p>
+          <a class="btn btn-success btn-lg btn-block pull-left" href="https://clguitar1.github.io/travel-site/">VISIT WEBSITE</a>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <div class="work-pic thumbnail">
+            <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/travel-site-desktop-resized.png">
+          </div>
+        </div><!-- /.col -->
     </div><!-- /.row -->
   </div><!-- /.container -->
 </section><!-- /#my-work-->

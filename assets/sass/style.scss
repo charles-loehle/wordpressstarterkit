@@ -376,6 +376,7 @@ $yellow-bkd: #FDCD3B;
 $title: #2A3A3F;
 $subtitle: #524e4d;
 $paragraph: #93a4aa;
+$hr: #d6e1e5;
 
 /* -- GENERAL -- */
 
@@ -451,9 +452,9 @@ button.btn:focus {
 	border: 2px solid $title;
 }
 
-img {
+/* img {
   max-width: 100%;
-}
+} */
 
 .badge.social {
   background: #ccc;
@@ -636,6 +637,7 @@ i.fa {
 /* === MY WORK === */
 #my-work {
 	background-color: #eee;
+
 	ul {
 		font-size: 1.1rem;
 		font-weight: 700;
@@ -652,6 +654,16 @@ i.fa {
 			font-size: 1.8rem;
 		}
 	}
+
+
+	.work-text {
+		margin: 50px 0;
+	}
+
+	.work-pic {
+		margin: 50px 0;
+	}
+
 	p {
 		margin-bottom: 30px;
 	}
@@ -672,7 +684,14 @@ i.fa {
 	  background-color: $title;
 	  border: 2px solid $title;
 	}
+	hr {
+  width: 100%;
+/*  border-top: 10px solid $hr; */
+  border-bottom: 1px solid $hr;
 }
+}
+
+
 
 /* === SIGN UP SECTION === */
 #signup {
