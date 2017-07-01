@@ -15,11 +15,26 @@
 
 <!-- SIGN UP SECTION -->
 <section id="signup">
-  <div class="container">
+  <div id="section4" class="container">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <h2>Want to work together?</h2>
         <p class="subtitle">I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</p>
+
+
+        <div class="row">
+          <div class="col-sm-12">
+
+          <?php
+          if(is_active_sidebar('footer-3')){
+          dynamic_sidebar('footer-3');
+          }
+          ?>
+
+          </div>
+        </div><!--.row-->
+
+
         <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">GET STARTED</button>
 
       </div><!-- /col-->
@@ -30,6 +45,7 @@
 <!-- FOOTER -->
 <!-- ==================================== -->
 <footer>
+
   <div class="container">
     <div class="row">
       <div class="logo-container">
@@ -44,9 +60,9 @@
             'menu_class'      => 'list-unstyled list-inline'
           ) );
         ?>
-      </div><!-- /.logo-container -->
-    </div><!-- /row -->
-  </div><!-- /container -->
+      </div><!--/logo-container -->
+    </div><!--/row -->
+  </div><!--/container-->
 </footer>
 
 <!-- MODAL -->
@@ -85,8 +101,10 @@
 
 <!-- BOOTSTRAP CORE JAVASCRIPT placed at the end of the document so the pages load faster
 =========================================================================== -->
+<!-- jquery cdn -->
+ <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+<script src="</?php bloginfo('template_directory'); ?>/assets/js/dist/jquery-2.1.1.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/dist/typed.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/dist/jquery-2.1.1.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/dist/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/dev/scripts.js"></script>
 

@@ -88,6 +88,49 @@ add_action( 'after_setup_theme', 'wordpressstarterkit_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
+
+ /******Custom Widgets****/
+ register_sidebar( array(
+ 'name' => 'Footer Area 1',
+ 'id' => 'footer-1',
+ 'description' => 'Appears in the footer area',
+ 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+ 'after_widget' => '</aside>',
+ 'before_title' => '<h3 class="widget-title">',
+ 'after_title' => '</h3>',
+ ) );
+
+ register_sidebar( array(
+ 'name' => 'Footer Area 2',
+ 'id' => 'footer-2',
+ 'description' => 'Appears in the footer area',
+ 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+ 'after_widget' => '</aside>',
+ 'before_title' => '<h3 class="widget-title">',
+ 'after_title' => '</h3>',
+ ) );
+
+ register_sidebar( array(
+ 'name' => 'Footer Area 3',
+ 'id' => 'footer-3',
+ 'description' => 'Appears in the footer area',
+ 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+ 'after_widget' => '</aside>',
+ 'before_title' => '<h3 class="widget-title">',
+ 'after_title' => '</h3>',
+ ) );
+
+ register_sidebar( array(
+ 'name' => 'Footer Area 4',
+ 'id' => 'footer-4',
+ 'description' => 'Appears in the footer area',
+ 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+ 'after_widget' => '</aside>',
+ 'before_title' => '<h3 class="widget-title">',
+ 'after_title' => '</h3>',
+ ) );
+/****End custom widgets****/
+
 function wordpressstarterkit_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'wordpressstarterkit' ),
@@ -104,6 +147,8 @@ add_action( 'widgets_init', 'wordpressstarterkit_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+
+
 function wordpressstarterkit_scripts() {
 	wp_enqueue_style( 'wordpressstarterkit-style', get_stylesheet_uri() );
 

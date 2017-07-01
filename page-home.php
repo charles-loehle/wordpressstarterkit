@@ -14,7 +14,7 @@ $optin_button_text = get_field('optin_button_text');
 <!-- HERO
 ===================================== -->
 <section id="hero">
-  <article>
+  <article id="section1">
     <div class="container clearfix">
       <div class="row">
         <div class="col-sm-12 hero-text">
@@ -52,7 +52,7 @@ $optin_button_text = get_field('optin_button_text');
 <!-- MY EXPERTISE
 ========================================== -->
 <section id="my-expertise">
-  <div class="container">
+  <div id="section2" class="container">
 
     <h2 class="title">My Expertise</h2>
 
@@ -82,13 +82,13 @@ $optin_button_text = get_field('optin_button_text');
 <!-- MY WORK
 ========================================= -->
 <section id="my-work">
-  <div class="container">
+  <div id="section3" class="container">
     <div class="row">
       <h2>My Work</h2>
         <div class="work-text col-sm-6">
           <h3 class="title">Greg Erbs CPA</h3>
           <ul>
-            <li>WORDPRESS THEME CUSTOMIZATION</li>
+            <li>WORDPRESS THEME CUSTOMIZATION, HTML5, CSS3, JAVASCRIPT, JQUERY, BOOTSTRAP</li>
           </ul>
           <p>Greg Erbs is a CPA based in Atlanta, Ga. who
             provides accounting solutions of all types.</p>
@@ -97,6 +97,7 @@ $optin_button_text = get_field('optin_button_text');
         <div class="col-sm-6">
           <div class="work-pic thumbnail">
             <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/gregerbscpa-desktop-cropped.png">
+            <span class="image-overlay"><a href="gregerbscpa.cldigitaldesign.com" class="btn btn-default learn-more">Learn More</a></span>
           </div>
         </div><!-- /.col -->
         <hr>
@@ -104,7 +105,7 @@ $optin_button_text = get_field('optin_button_text');
         <div class="work-text col-sm-6">
           <h3 class="title">Clear View Escapes</h3>
           <ul>
-            <li>JAVASCRIPT, JQUERY, RESPONSIVE DESIGN</li>
+            <li>HTML5, CSS3, JAVASCRIPT, JQUERY</li>
           </ul>
           <p>Clear View Escapes is a mock travel agency site designed to display coding abilities in
           several different realms.</p>
@@ -112,7 +113,8 @@ $optin_button_text = get_field('optin_button_text');
         </div><!-- /.col -->
         <div class="col-sm-6">
           <div class="work-pic thumbnail">
-            <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/travel-site-desktop-resized.png">
+            <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/travel-site-desktop-again-resized.png">
+            <span class="image-overlay"><a href="https://clguitar1.github.io/travel-site/" class="btn btn-default learn-more">Learn More</a></span>
           </div>
         </div><!-- /.col -->
     </div><!-- /.row -->

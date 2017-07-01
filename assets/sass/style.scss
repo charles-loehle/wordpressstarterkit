@@ -660,9 +660,43 @@ i.fa {
 		margin: 50px 0;
 	}
 
+	/* Hover Transform Effect */
 	.work-pic {
 		margin: 50px 0;
+		transition: .8s;
+		position: relative;
+		text-align: center;
 	}
+
+	.work-pic:hover {
+		transform: scale(1.1);
+	}
+	/* End Hover Transform Effect */
+
+	/* Image Overlay Effect */
+.image-overlay {
+	padding-top: 14em ;
+	color: #fff;
+	position: absolute;
+	top: 0;
+  right: 0;
+	bottom: 7px;
+	left: 0;
+	background: rgba(0,0,0, .5);
+	opacity: 0;
+	transition: opacity 1.2s;
+	a {
+		color: $title;
+	}
+	.learn-more {
+		border-radius: 2px;
+	}
+}
+
+.image-overlay:hover {
+	opacity:1;
+}
+/* End Image Overlay Effect */
 
 	p {
 		margin-bottom: 30px;

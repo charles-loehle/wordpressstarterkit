@@ -29,7 +29,7 @@
 		<![endif]-->
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50"<?php body_class(); ?>>
 		<div id="page" class="site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wordpressstarterkit' ); ?></a>
 
@@ -53,14 +53,25 @@
 								<a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?> /assets/images/originals/cldigitaldesign3.png" alt="cldigitaldesign logo"></a>
 							</div><!-- navbar header -->
 
-							<?php
-								wp_nav_menu( array(
-									'theme_location'  => 'menu-1',
-									'container'				=> 'nav',
-									'container_class'	=> 'navbar-collapse collapse',
-									'menu_class'			=> 'nav navbar-nav navbar-right'
-								));
-							?>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-nav-demo">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#section1">Home<span class="sr-only">(current)</span></a></li>
+									<li><a href="#section2">Expertise</a></li>
+									<li><a href="#section3">Work</a></li>
+									<li><a href="#section4">Contact</a></li>
+								</ul>
+							</div>
+
+
+							<!-- </?php -->
+								<!-- wp_nav_menu( array( -->
+									<!-- 'theme_location'  => 'menu-1', -->
+									<!-- 'container'				=> 'nav', -->
+									<!-- 'container_class'	=> 'navbar-collapse collapse', -->
+									<!-- 'menu_class'			=> 'nav navbar-nav navbar-right' -->
+								<!-- )); -->
+							<!-- ?> -->
 
 
 						</div><!-- container -->
