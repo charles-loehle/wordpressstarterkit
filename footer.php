@@ -41,7 +41,7 @@
   <div class="container">
     <div class="row">
       <div class="logo-container">
-        <a href="/" class="logo"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/originals/cldigitaldesign3.png" alt="CL Digital Design"></a>
+        <a href="#hero" class="logo"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/originals/cldigitaldesign3.png" alt="CL Digital Design"></a>
 
         <p class="copyright">&copy; 2017 Charles Loehle</p>
 

@@ -50,7 +50,7 @@
 									<span class="icon-bar"></span>
 								</button>
 
-								<a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?> /assets/images/originals/cldigitaldesign3.png" alt="cldigitaldesign logo"></a>
+								<a class="navbar-brand" href="#hero"><img src="<?php bloginfo('stylesheet_directory'); ?> /assets/images/originals/cldigitaldesign3.png" alt="cldigitaldesign logo"></a>
 							</div><!-- navbar header -->
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
