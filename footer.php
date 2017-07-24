@@ -13,39 +13,31 @@
 
 <?php wp_footer(); ?>
 
-<!-- SIGN UP SECTION -->
-<section id="signup">
-  <div id="section4" class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h2>Want to work together?</h2>
-        <p class="subtitle">I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</p>
+<!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <h2>Contact Us</h2>
+          <div class="row">
+            <div class="col-sm-12">
 
+              <?php
+              if(is_active_sidebar('footer-3')){
+              dynamic_sidebar('footer-3');
+              }
+              ?>
 
-        <div class="row">
-          <div class="col-sm-12">
-
-          <?php
-          if(is_active_sidebar('footer-3')){
-          dynamic_sidebar('footer-3');
-          }
-          ?>
-
-          </div>
-        </div><!--.row-->
-
-
-        <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">GET STARTED</button>
-
-      </div><!-- /col-->
-    </div><!-- /row -->
-  </div><!-- /container -->
-</section><!-- /#signup -->
+            </div>
+          </div><!--.row-->
+        </div><!-- /col-->
+      </div><!-- /row -->
+    </div><!-- /container -->
+  </section><!-- /contact -->
 
 <!-- FOOTER -->
 <!-- ==================================== -->
 <footer>
-
   <div class="container">
     <div class="row">
       <div class="logo-container">

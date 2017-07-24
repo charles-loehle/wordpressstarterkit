@@ -56,10 +56,10 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-nav-demo">
 								<ul class="nav navbar-nav">
-									<li class="active"><a href="#section1">Home<span class="sr-only">(current)</span></a></li>
-									<li><a href="#section2">Expertise</a></li>
-									<li><a href="#section3">Work</a></li>
-									<li><a href="#section4">Contact</a></li>
+									<li class="active"><a href="#hero">Home<span class="sr-only">(current)</span></a></li>
+									<li><a href="#my-expertise">Expertise</a></li>
+									<li><a href="#my-work">Work</a></li>
+									<li><a href="#contact">Contact</a></li>
 								</ul>
 							</div>
 
