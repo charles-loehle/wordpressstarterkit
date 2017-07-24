@@ -484,6 +484,7 @@ button.btn:focus {
 	font-size: 1.4rem;
 	font-weight: 600;
 	margin: auto;
+	margin-top: 31px;
 	transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
 	width: 175px;
 }
@@ -689,6 +690,11 @@ section#hero {
 	}
 }
 
+div.my-work-pic.col-sm-6 {
+	margin-bottom: 34px;
+	margin-top: 35px;
+}
+
 //Image Hover Opacity Effect
 
 	.wrapper {
@@ -743,6 +749,11 @@ section#hero {
   border-bottom: 1px solid $hr;
  }
 
+@media screen and (max-width: 750px) {
+	.my-work-text {
+		text-align: center;
+	}
+}
 
 /* === CONTACT SECTION === */
 #contact {

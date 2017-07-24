@@ -18,7 +18,7 @@ $optin_button_text = get_field('optin_button_text');
       <div class="container clearfix">
         <div class="row">
           <div class="col-sm-12 hero-text">
-            <h1 class="headline-type">Hi, I'm Charles. I design and build</h1>
+            <h1 class="headline-type">Welcome To CL Digital Design.<br> I design and build</h1>
             <div id="typed-strings">
                 <p>landing pages.</p>
                 <p>business websites.</p>
@@ -53,20 +53,20 @@ $optin_button_text = get_field('optin_button_text');
       <div class="row">
         <div class="col-sm-4 expertise-block">
           <i class="fa fa-diamond"></i>
-          <h3 class="my-expertise-title">Ideas</h3>
-          <p class="my-expertise-paragraph">I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.</p>
+          <h3 class="my-expertise-title">Website Design</h3>
+          <p class="my-expertise-paragraph">Our approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.</p>
         </div>
 
         <div class="col-sm-4 expertise-block">
-          <i class="fa fa-magic"></i>
-          <h3 class="my-expertise-title">UX/UI</h3>
-          <p class="my-expertise-paragraph">I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.</p>
+          <i class="fa fa-wordpress" aria-hidden="true"></i></i>
+          <h3 class="my-expertise-title">Wordpress Development</h3>
+          <p class="my-expertise-paragraph">Wordpress CMS is a user-friendly administrative area allowing you to easily edit your website's content.</p>
         </div>
 
         <div class="col-sm-4 expertise-block">
           <i class="fa fa-code"></i>
-          <h3 class="my-expertise-title">Code</h3>
-          <p class="my-expertise-paragraph">I design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.</p>
+          <h3 class="my-expertise-title">Modern Technologies</h3>
+          <p class="my-expertise-paragraph">I have knowledge of multiple fields such as HTML5, CSS3, Javascript, Jquery, PHP and MySQL. These allow me to work on a project producing a more cohesive experience for users.</p>
         </div>
       </div><!-- /.row -->
     </div><!-- /.container -->
@@ -86,11 +86,11 @@ $optin_button_text = get_field('optin_button_text');
             </ul>
             <p class="my-work-paragraph">Greg Erbs is a CPA based in Atlanta, Ga. who
               provides accounting solutions of all types.</p>
-            <a class="btn btn-success btn-lg btn-block pull-left" href="http://gregerbscpa.cldigitaldesign.com/">VISIT WEBSITE</a>
+              <a class="btn btn-success btn-lg btn-block" href="http://gregerbscpa.cldigitaldesign.com/">VISIT WEBSITE</a>
           </div><!-- /.col -->
 
-          <div class="col-sm-6">
-            <div class="wrapper work-pic thumbnail">
+          <div class="my-work-pic col-sm-6">
+            <div class="wrapper thumbnail">
               <a href="http://gregerbscpa.cldigitaldesign.com/">
                 <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/gregerbscpa-desktop-cropped-1.png">
                 <div class="overlay">
@@ -110,10 +110,10 @@ $optin_button_text = get_field('optin_button_text');
             </ul>
             <p class="my-work-paragraph">Clear View Escapes is a mock travel agency site designed to display coding abilities in
             several different realms.</p>
-            <a class="btn btn-success btn-lg btn-block pull-left" href="https://clguitar1.github.io/travel-site/">VISIT WEBSITE</a>
+            <a class="btn btn-success btn-lg btn-block" href="https://clguitar1.github.io/travel-site/">VISIT WEBSITE</a>
           </div><!-- /.col -->
 
-          <div class="col-sm-6">
+          <div class="my-work-pic col-sm-6">
             <div class="wrapper work-pic thumbnail">
               <a href="https://clguitar1.github.io/travel-site/">
                 <img src="http://localhost/wordpress-starter-kit/wp-content/uploads/2017/06/travel-site-desktop-again-resized.png">

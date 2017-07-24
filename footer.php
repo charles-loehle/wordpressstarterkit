@@ -17,7 +17,7 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-12">
           <h2>Contact Us</h2>
           <div class="row">
             <div class="col-sm-12">
@@ -45,13 +45,13 @@
 
         <p class="copyright">&copy; 2017 Charles Loehle</p>
 
-        <?php
+        <!-- <//?php
           wp_nav_menu( array(
             'display_location'  => 'footer',
             'container'       => 'nav',
             'menu_class'      => 'list-unstyled list-inline'
           ) );
-        ?>
+        ?> -->
       </div><!--/logo-container -->
     </div><!--/row -->
   </div><!--/container-->
