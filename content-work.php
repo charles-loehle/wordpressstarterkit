@@ -51,6 +51,29 @@
               </a>
             </div><!-- wrapper -->
           </div><!-- /.col -->
+          <hr>
+          
+          <div class="my-work-text col-sm-6">
+            <h3 class="my-work-title">Casual Admin</h3>
+            <ul>
+              <li>PHP, MYSQL, CRUD, BOOTSTRAP</li>
+            </ul>
+            <p class="my-work-paragraph">Casual Admin is a mock coffee shop site designed to allow the user to login and modify the site themselves.</p>
+            <a class="btn btn-success btn-lg btn-block" href="http://www.casualadmin.cldigitaldesign.com/">VISIT WEBSITE</a>
+          </div><!-- /.col -->
+
+          <div class="my-work-pic col-sm-6">
+            <div class="wrapper work-pic thumbnail">
+              <a href="http://www.casualadmin.cldigitaldesign.com/">
+                <img src="http://cldigitaldesign.com/wp-content/uploads/2017/08/casualadmin-desktop.png">
+                <div class="overlay">
+                  <div class="content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+              </a>
+            </div><!-- wrapper -->
+          </div><!-- /.col -->
 
       </div><!-- /.row -->
     </div><!-- /.container -->

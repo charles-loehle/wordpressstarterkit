@@ -2,8 +2,13 @@
 ========================================== -->
 <section id="my-expertise">
   <div class="container">
-    <h2 class="my-expertise-title">My Expertise</h2>
-    <p class="my-expertise-subtitle">Producing high-quality websites and exceptional user experience.</p>
+    <div class="row">
+      <div class="col-sm-12">
+      <h2 class="my-expertise-title">My Expertise</h2>
+      <p class="my-expertise-subtitle">Producing high-quality websites and exceptional user experience.</p>
+    </div>
+  </div>
+
     <div class="row">
       <div class="col-sm-4 expertise-block">
         <i class="fa fa-diamond"></i>

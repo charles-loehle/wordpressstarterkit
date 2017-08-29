@@ -28,7 +28,7 @@ $optin_button_text = get_field('optin_button_text');
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <a class="btn btn-success btn-lg btn-block" href="#contact"><?php echo $optin_button_text; ?></a>
+            <a class="btn btn-success btn-lg btn-block" href="#my-expertise"><?php echo $optin_button_text; ?></a>
           </div><!-- col -->
         </div><!-- row -->
       </div><!-- container -->

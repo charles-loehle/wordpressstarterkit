@@ -150,6 +150,9 @@ add_action( 'widgets_init', 'wordpressstarterkit_widgets_init' );
 
 
 function wordpressstarterkit_scripts() {
+	
+	 wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
+
 	wp_enqueue_style( 'wordpressstarterkit-style', get_stylesheet_uri() );
 
 	// wp_enqueue_script( 'wordpressstarterkit-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );

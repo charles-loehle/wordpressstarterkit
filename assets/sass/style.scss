@@ -374,7 +374,7 @@ object {
 $yellow-bkd: #FDCD3B;
 $title: #2A3A3F;
 $subtitle: #524e4d;
-$paragraph: #93a4aa;
+$paragraph: #626e72;
 $hr: #d6e1e5;
 
 /* -- GENERAL -- */
@@ -641,6 +641,10 @@ section#hero {
 
 
 /* === MY EXPERTISE == */
+section#my-expertise {
+	padding-bottom: 250px;
+}
+
 #my-expertise {
   text-align: center;
 	.my-expertise-title {
@@ -730,7 +734,7 @@ div.my-work-pic.col-sm-6 {
 	}
 
 	.wrapper:hover img {
-	  opacity: .2;
+	  opacity: .4;
 	}
 
 	.wrapper:hover .overlay {
@@ -842,7 +846,6 @@ button[type="submit"]:hover {
 // Social Buttons
 
 .badge.social {
-  background: #ccc;
   font-size: 24px;
   height: 40px;
   width: 40px;
@@ -853,19 +856,18 @@ button[type="submit"]:hover {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
-  color: white;
 }
 
 .badge.social.twitter:hover {
-  background: #55acee;
+  background: $yellow-bkd;
 }
 
 .badge.social.facebook:hover {
-  background: #3b5998;
+  background: $yellow-bkd;
 }
 
 .badge.social.gplus:hover {
-  background: #db4b39;
+  background: $yellow-bkd;
 }
 
 

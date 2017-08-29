@@ -39,21 +39,24 @@
 <!-- ==================================== -->
 <footer>
   <div class="container">
-    <div class="row">
-      <div class="logo-container">
-        <a href="#hero" class="logo"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/originals/cldigitaldesign3.png" alt="CL Digital Design"></a>
+    <div class="logo-container">
+      <a href="#hero" class="logo"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/originals/cldigitaldesign3.png" alt="CL Digital Design"></a>
 
-        <p class="copyright">&copy; 2017 Charles Loehle</p>
+      <p class="copyright">&copy; 2017 Charles Loehle</p>
 
-        <!-- <//?php
-          wp_nav_menu( array(
-            'display_location'  => 'footer',
-            'container'       => 'nav',
-            'menu_class'      => 'list-unstyled list-inline'
-          ) );
-        ?> -->
-      </div><!--/logo-container -->
-    </div><!--/row -->
+      <!-- <//?php
+        wp_nav_menu( array(
+          'display_location'  => 'footer',
+          'container'       => 'nav',
+          'menu_class'      => 'list-unstyled list-inline'
+        ) );
+      ?> -->
+    </div><!--/logo-container -->
+    <div>
+			<a href="https://twitter.com/CharlesLoehle" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://facebook.com/charlesloehle" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://github.com/clguitar1" class="badge social gplus" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		</div>
   </div><!--/container-->
 </footer>
 
